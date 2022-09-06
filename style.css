@@ -6,7 +6,9 @@
     outline : 0px;
     font-family: 'Poppins', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 nav{
     height: 10vh;
     display: flex;
@@ -79,9 +81,9 @@ nav ul li a{
 
 .social{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 40px;
-    width: 50%;
+    /* width: 50%; */
 }
 .fa{
     color: #F2F2F2;
@@ -172,7 +174,10 @@ nav ul li a{
     margin: 5px;
     height: 1.5rem;
 }
-
+footer{
+    padding: 1rem;
+    background-color: #253472;
+}
 @media screen and (max-width: 720px){
     nav{
         display: none;
